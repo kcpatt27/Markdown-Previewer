@@ -1,0 +1,32 @@
+#root {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+#container {
+  display: flex;
+}
+
+#editor, #preview {
+  flex: 1;
+  padding: 0px 10px 10px 15px;
+}
+
+#editor {
+  resize: none;
+  height: 100vh;
+  padding: 20px;
+}
+
+#preview {
+  overflow-y: auto;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(318, 100%, 84%, 0.89);
+}
+a:hover {
+  color: hsla(0, 0%, 96%, 0.963)
+}
